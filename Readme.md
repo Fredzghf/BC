@@ -4,7 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version)
 
-![alt text](main.jpg)
+![alt text](main.jpg | width=50)
 
 </div>
 
