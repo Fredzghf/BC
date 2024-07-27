@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_fields_must_be_filled_with_valid_numbers">"Alle velden moeten worden ingevuld met geldige nummers"</string>
+    <string name="probability_must_be_between_0_and_1">"De waarschijnlijkheid moet tussen 0 en 1 liggen"</string>
+    <string name="successes_cannot_be_greater_than_trials">"Successen kunnen niet groter zijn dan Trials"</string>
+    <string name="trials_must_be_greater_than_0">"Proeven moeten groter zijn dan 0"</string>
+    <string name="calculate">"Bereken"</string>
+    <string name="percentage">"Percentage"</string>
+    <string name="full_precision">"Volledige precisie"</string>
+    <string name="probability">"Waarschijnlijkheid"</string>
+    <string name="successes">"Successen"</string>
+    <string name="trials">"Proeven"</string>
+</resources>

@@ -11,10 +11,12 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
+import com.example.bc.R
 
 @Composable
 fun InputFields(
@@ -30,21 +32,21 @@ fun InputFields(
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         InputField(
-            label = "Probability",
+            label = stringResource(R.string.probability),
             value = probabilityText,
             onValueChange = onProbabilityChange,
             keyboardType = KeyboardType.Decimal,
             modifier = Modifier.weight(1f)
         )
         InputField(
-            label = "Successes",
+            label = stringResource(R.string.successes),
             value = numberOfSuccesses,
             onValueChange = onSuccessesChange,
             keyboardType = KeyboardType.Number,
             modifier = Modifier.weight(1f)
         )
         InputField(
-            label = "Trials",
+            label = stringResource(R.string.trials),
             value = numberOfTrials,
             onValueChange = onTrialsChange,
             keyboardType = KeyboardType.Number,

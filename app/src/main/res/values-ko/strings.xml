@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_fields_must_be_filled_with_valid_numbers">"모든 필드는 유효한 숫자로 채워야 합니다."</string>
+    <string name="probability_must_be_between_0_and_1">"확률은 0에서 1 사이여야 합니다."</string>
+    <string name="successes_cannot_be_greater_than_trials">"성공은 시련보다 클 수 없습니다."</string>
+    <string name="trials_must_be_greater_than_0">"트라이얼은 0보다 커야 합니다."</string>
+    <string name="calculate">"계산"</string>
+    <string name="percentage">"백분율"</string>
+    <string name="full_precision">"완벽한 정밀도"</string>
+    <string name="probability">"확률"</string>
+    <string name="successes">"성공 사례"</string>
+    <string name="trials">"평가판"</string>
+</resources>

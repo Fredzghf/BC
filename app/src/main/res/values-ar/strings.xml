@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_fields_must_be_filled_with_valid_numbers">"يجب ملء جميع الحقول بأرقام صحيحة"</string>
+    <string name="probability_must_be_between_0_and_1">"يجب أن يكون الاحتمال بين 0 و1"</string>
+    <string name="successes_cannot_be_greater_than_trials">"النجاحات لا يمكن أن تكون أكبر من التجارب"</string>
+    <string name="trials_must_be_greater_than_0">"يجب أن تكون التجارب أكبر من 0"</string>
+    <string name="calculate">"احسب"</string>
+    <string name="percentage">"نسبة مئوية"</string>
+    <string name="full_precision">"الدقة الكاملة"</string>
+    <string name="probability">"احتمالا"</string>
+    <string name="successes">"النجاحات"</string>
+    <string name="trials">"المحاكمات"</string>
+</resources>

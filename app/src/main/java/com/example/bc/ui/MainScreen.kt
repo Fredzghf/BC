@@ -10,21 +10,29 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.bc.ui.components.CalculateButton
 import com.example.bc.ui.components.DisplayOptions
 import com.example.bc.ui.components.InputFields
 import com.example.bc.ui.components.ProbabilityResults
+import com.example.bc.utils.ResourceManager
 import com.example.bc.viewmodel.BinomialViewModel
+import com.example.bc.viewmodel.BinomialViewModelFactory
 
 @Composable
-fun MainScreen(viewModel: BinomialViewModel = androidx.lifecycle.viewmodel.compose.viewModel()) {
+fun MainScreen() {
+    val context = LocalContext.current
+    val resourceManager = remember { ResourceManager(context) }
+    val viewModelFactory = remember { BinomialViewModelFactory(resourceManager) }
+    val viewModel: BinomialViewModel = viewModel(factory = viewModelFactory)
+
     val uiState by viewModel.uiState.collectAsState()
     val errorMessage by viewModel.errorMessage.collectAsState()
-    val context = LocalContext.current
 
     // Display error toast when errorMessage is not null
     LaunchedEffect(errorMessage) {

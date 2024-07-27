@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">BC</string>
+    <string name="app_name" translatable="false">BC</string>
+    <string name="all_fields_must_be_filled_with_valid_numbers">All fields must be filled with valid numbers</string>
+    <string name="probability_must_be_between_0_and_1">Probability must be between 0 and 1</string>
+    <string name="successes_cannot_be_greater_than_trials">Successes cannot be greater than Trials</string>
+    <string name="trials_must_be_greater_than_0">Trials must be greater than 0</string>
+    <string name="calculate">Calculate</string>
+    <string name="percentage">Percentage</string>
+    <string name="full_precision">Full Precision</string>
+    <string name="probability">Probability</string>
+    <string name="successes">Successes</string>
+    <string name="trials">Trials</string>
 </resources>

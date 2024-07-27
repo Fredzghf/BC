@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_fields_must_be_filled_with_valid_numbers">"すべてのフィールドに有効な数字を入力してください。"</string>
+    <string name="probability_must_be_between_0_and_1">"確率は0から1の間でなければならない"</string>
+    <string name="successes_cannot_be_greater_than_trials">"成功が試練を上回ることはない"</string>
+    <string name="trials_must_be_greater_than_0">"トライアルは0より大きくなければならない"</string>
+    <string name="calculate">"計算する"</string>
+    <string name="percentage">"パーセント"</string>
+    <string name="full_precision">"フル・プレシジョン"</string>
+    <string name="probability">"確率"</string>
+    <string name="successes">"成功例"</string>
+    <string name="trials">"トライアル"</string>
+</resources>

@@ -1,14 +1,16 @@
 package com.example.bc.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.bc.R
 import com.example.bc.model.BinomialDistribution
 import com.example.bc.model.BinomialUiState
+import com.example.bc.utils.ResourceManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class BinomialViewModel : ViewModel() {
+class BinomialViewModel(private val resourceManager: ResourceManager) : ViewModel() {
     private val _uiState = MutableStateFlow(BinomialUiState())
     val uiState: StateFlow<BinomialUiState> = _uiState.asStateFlow()
 
@@ -44,19 +46,23 @@ class BinomialViewModel : ViewModel() {
 
         when {
             probability == null || trials == null || successes == null -> {
-                _errorMessage.value = "All fields must be filled with valid numbers"
+                _errorMessage.value =
+                    resourceManager.getString(R.string.all_fields_must_be_filled_with_valid_numbers)
                 return
             }
             probability < 0 || probability > 1 -> {
-                _errorMessage.value = "Probability must be between 0 and 1"
+                _errorMessage.value =
+                    resourceManager.getString(R.string.probability_must_be_between_0_and_1)
                 return
             }
             trials < successes -> {
-                _errorMessage.value = "Successes cannot be greater than Trials"
+                _errorMessage.value =
+                    resourceManager.getString(R.string.successes_cannot_be_greater_than_trials)
                 return
             }
             trials <= 0 -> {
-                _errorMessage.value = "Trials must be greater than 0"
+                _errorMessage.value =
+                    resourceManager.getString(R.string.trials_must_be_greater_than_0)
                 return
             }
         }

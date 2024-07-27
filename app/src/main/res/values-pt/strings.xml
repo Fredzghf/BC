@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_fields_must_be_filled_with_valid_numbers">"Todos os campos devem ser preenchidos com números válidos"</string>
+    <string name="probability_must_be_between_0_and_1">"A probabilidade deve estar compreendida entre 0 e 1"</string>
+    <string name="successes_cannot_be_greater_than_trials">"Os sucessos não podem ser maiores do que as tentativas"</string>
+    <string name="trials_must_be_greater_than_0">"Os ensaios devem ser superiores a 0"</string>
+    <string name="calculate">"Calcular"</string>
+    <string name="percentage">"Percentagem"</string>
+    <string name="full_precision">"Precisão total"</string>
+    <string name="probability">"Probabilidade"</string>
+    <string name="successes">"Sucessos"</string>
+    <string name="trials">"Ensaios"</string>
+</resources>
