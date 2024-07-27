@@ -1,11 +1,17 @@
 <div align="center">
-
+    
 # Binomial Calculator (BC)
+    
+</div>
 
-![Static Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version&link=https%3A%2F%2Fgithub.com%2FFredzghf%2FBC%2Freleases%2Ftag%2FRelease)
+<div align="center">
+    <a href="https%3A%2F%2Fgithub.com%2FFredzghf%2FBC%2Freleases%2Ftag%2FRelease" target="_blank">
+        <img alt="Static Badge" src="https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version&link=https%3A%2F%2Fgithub.com%2FFredzghf%2FBC%2Freleases%2Ftag%2FRelease">
+    </a>
+</div>
 
+<div align="center">
 <img src="main.jpg" width="50%" alt="Screenshot">
-
 </div>
 
 #### Overview
