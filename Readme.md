@@ -2,7 +2,7 @@
 
 # Binomial Calculator (BC)
 
-![Static Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version)
+![Static Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version&link=https%3A%2F%2Fgithub.com%2FFredzghf%2FBC%2Freleases%2Ftag%2FRelease)
 
 <img src="main.jpg" width="50%" alt="Screenshot">
 
