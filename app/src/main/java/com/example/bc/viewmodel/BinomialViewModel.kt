@@ -69,7 +69,8 @@ class BinomialViewModel : ViewModel() {
                 pXLessOrEqual = binomialDistribution.probabilityLessThanOrEqual,
                 pXGreaterOrEqual = binomialDistribution.probabilityGreaterThanOrEqual,
                 pXLess = binomialDistribution.probabilityLessThan,
-                pXGreater = binomialDistribution.probabilityGreaterThan
+                pXGreater = binomialDistribution.probabilityGreaterThan,
+                x = successes.toString()
             )
         }
         updateProbabilityValues()
@@ -93,8 +94,8 @@ class BinomialViewModel : ViewModel() {
 
     private fun formatProbability(value: Double): String {
         return if (_uiState.value.isPercentage) {
-            if (_uiState.value.isFullPrecision) "%012.9f%%".format(value * 100)
-            else "%05.2f%%".format(value * 100)
+            if (_uiState.value.isFullPrecision) "%.9f%%".format(value * 100)
+            else "%.2f%%".format(value * 100)
         } else {
             if (_uiState.value.isFullPrecision) "%.9f".format(value)
             else "%.4f".format(value)
