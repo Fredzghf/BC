@@ -1,6 +1,6 @@
 <div align="center">
 
-### Binomial Calculator (BC)
+# Binomial Calculator (BC)
 
 ![Static Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat&label=version)
 
